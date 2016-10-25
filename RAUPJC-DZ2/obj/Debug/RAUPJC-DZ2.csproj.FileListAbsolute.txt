@@ -1,0 +1,10 @@
+c:\users\fspigel\documents\visual studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2\bin\Debug\RAUPJC-DZ2.exe.config
+c:\users\fspigel\documents\visual studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2\bin\Debug\RAUPJC-DZ2.exe
+c:\users\fspigel\documents\visual studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2\bin\Debug\RAUPJC-DZ2.pdb
+c:\users\fspigel\documents\visual studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2\bin\Debug\ClassLibraryDZ2.dll
+c:\users\fspigel\documents\visual studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2\bin\Debug\dz1-zad3.exe
+c:\users\fspigel\documents\visual studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2\bin\Debug\ClassLibraryDZ2.pdb
+c:\users\fspigel\documents\visual studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2\bin\Debug\dz1-zad3.pdb
+c:\users\fspigel\documents\visual studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2\obj\Debug\RAUPJC-DZ2.csprojResolveAssemblyReference.cache
+c:\users\fspigel\documents\visual studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2\obj\Debug\RAUPJC-DZ2.exe
+c:\users\fspigel\documents\visual studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2\obj\Debug\RAUPJC-DZ2.pdb

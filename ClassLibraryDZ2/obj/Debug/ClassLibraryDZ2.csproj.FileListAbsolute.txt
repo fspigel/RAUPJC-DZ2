@@ -1,0 +1,7 @@
+c:\users\fspigel\documents\visual studio 2015\Projects\RAUPJC-DZ2\ClassLibraryDZ2\obj\Debug\ClassLibraryDZ2.csprojResolveAssemblyReference.cache
+c:\users\fspigel\documents\visual studio 2015\Projects\RAUPJC-DZ2\ClassLibraryDZ2\bin\Debug\ClassLibraryDZ2.dll
+c:\users\fspigel\documents\visual studio 2015\Projects\RAUPJC-DZ2\ClassLibraryDZ2\bin\Debug\ClassLibraryDZ2.pdb
+c:\users\fspigel\documents\visual studio 2015\Projects\RAUPJC-DZ2\ClassLibraryDZ2\bin\Debug\dz1-zad3.exe
+c:\users\fspigel\documents\visual studio 2015\Projects\RAUPJC-DZ2\ClassLibraryDZ2\bin\Debug\dz1-zad3.pdb
+c:\users\fspigel\documents\visual studio 2015\Projects\RAUPJC-DZ2\ClassLibraryDZ2\obj\Debug\ClassLibraryDZ2.dll
+c:\users\fspigel\documents\visual studio 2015\Projects\RAUPJC-DZ2\ClassLibraryDZ2\obj\Debug\ClassLibraryDZ2.pdb
