@@ -14,11 +14,7 @@ namespace RAUPJC_DZ2
         {
             Name = name;
             Jmbag = jmbag;
-        }        public enum Gender
-        {
-            Male, Female
-        }
-
+        }        public Gender Gender { get; set; }
         public static bool operator ==(Student student1, Student student2)
         {
             return student1.Jmbag == student2.Jmbag;
@@ -52,4 +48,10 @@ namespace RAUPJC_DZ2
             return hash;
         }
     }
+
+    public enum Gender
+    {
+        Male, Female
+    }
+
 }

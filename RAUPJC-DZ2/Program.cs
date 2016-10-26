@@ -63,12 +63,13 @@ namespace RAUPJC_DZ2
                                                                where nGroup.Count() > 1
                                                                select nGroup.Key).ToArray();
 
-            University[] maleOnlyUnis = from u in universities
-
+            Student[] studentsOnMaleOnlyUniversities = universities.Where(u => !u.Students.Any(s => s.Gender == Gender.Female)). //male only universities
+                                                       SelectMany(b => b.Students).Distinct().ToArray();                         //select distinct students
 
             //tests
-            Console.WriteLine(allCroatianStudents.Count());
-            Console.WriteLine(croatianStudentsOnMultipleUniversities.Count());
+            //Console.WriteLine(allCroatianStudents.Count());
+            //Console.WriteLine(croatianStudentsOnMultipleUniversities.Count());
+            //Console.WriteLine("Students: {0}", studentsOnMaleOnlyUniversities.Count());
 
             Console.ReadLine();
         }
@@ -94,6 +95,9 @@ namespace RAUPJC_DZ2
             // 2 :(
             var distinctStudents = list.Distinct().Count();
             Console.WriteLine(distinctStudents);
+        }        private bool IsMaleOnlyUni(University uni)
+        {
+            return !uni.Students.Any(s => s.Gender == Gender.Female);
         }
     }
 }
