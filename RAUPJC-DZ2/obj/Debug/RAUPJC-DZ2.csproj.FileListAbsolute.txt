@@ -8,3 +8,13 @@ c:\users\fspigel\documents\visual studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2\bin
 c:\users\fspigel\documents\visual studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2\obj\Debug\RAUPJC-DZ2.csprojResolveAssemblyReference.cache
 c:\users\fspigel\documents\visual studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2\obj\Debug\RAUPJC-DZ2.exe
 c:\users\fspigel\documents\visual studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2\obj\Debug\RAUPJC-DZ2.pdb
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2\bin\Debug\RAUPJC-DZ2.exe.config
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2\obj\Debug\RAUPJC-DZ2.exe
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2\obj\Debug\RAUPJC-DZ2.pdb
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2\bin\Debug\RAUPJC-DZ2.exe
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2\bin\Debug\RAUPJC-DZ2.pdb
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2\bin\Debug\ClassLibraryDZ2.dll
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2\bin\Debug\dz1-zad3.exe
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2\bin\Debug\ClassLibraryDZ2.pdb
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2\bin\Debug\dz1-zad3.pdb
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2\obj\Debug\RAUPJC-DZ2.csprojResolveAssemblyReference.cache

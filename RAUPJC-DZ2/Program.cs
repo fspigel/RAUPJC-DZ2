@@ -38,6 +38,38 @@ namespace RAUPJC_DZ2
             Example1();
             Example2();
 
+            //zad5
+            //dummy list:
+            University Zagreb = new University()
+            {
+                Name = "Zagreb"
+            };
+            University Split = new University()
+            {
+                Name = "Split"
+            };
+
+            University[] universities = new University[] { Zagreb, Split };
+            Student maja = new Student("Maja", "58") { Gender = Gender.Female };
+            Student pero = new Student("Pero", "59") { Gender = Gender.Male };
+            Zagreb.Students = new Student[] { pero };
+            Split.Students = new Student[] { maja, pero };
+            
+            //query
+            Student[] allCroatianStudents = universities.SelectMany(b => b.Students).Distinct().ToArray();
+
+            Student[] croatianStudentsOnMultipleUniversities= (from s in universities.SelectMany(b => b.Students)
+                                                               group s by s into nGroup
+                                                               where nGroup.Count() > 1
+                                                               select nGroup.Key).ToArray();
+
+            University[] maleOnlyUnis = from u in universities
+
+
+            //tests
+            Console.WriteLine(allCroatianStudents.Count());
+            Console.WriteLine(croatianStudentsOnMultipleUniversities.Count());
+
             Console.ReadLine();
         }
 
