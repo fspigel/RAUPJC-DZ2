@@ -95,9 +95,11 @@ namespace RAUPJC_DZ2
             // 2 :(
             var distinctStudents = list.Distinct().Count();
             Console.WriteLine(distinctStudents);
-        }        private bool IsMaleOnlyUni(University uni)
+        }
+        private bool IsMaleOnlyUni(University uni)
         {
             return !uni.Students.Any(s => s.Gender == Gender.Female);
-        }
+        }
+
     }
 }

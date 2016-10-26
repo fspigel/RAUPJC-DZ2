@@ -1,0 +1,5 @@
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2-zad6\bin\Debug\RAUPJC-DZ2-zad6.exe.config
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2-zad6\bin\Debug\RAUPJC-DZ2-zad6.exe
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2-zad6\bin\Debug\RAUPJC-DZ2-zad6.pdb
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2-zad6\obj\Debug\RAUPJC-DZ2-zad6.exe
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2-zad6\obj\Debug\RAUPJC-DZ2-zad6.pdb
