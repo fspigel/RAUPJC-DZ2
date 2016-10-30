@@ -9,29 +9,23 @@ namespace RAUPJC_DZ2
 {
     class Program
     {
-        public static void PrintTodoList(List<TodoItem> list)
-        {
-            foreach(TodoItem item in list)
-            {
-                Console.WriteLine(item.ToString());
-            }
-        }
 
         static void Main(string[] args)
         {
-            //zad3
-            int[] integers = new[] { 1, 2, 2, 2, 3, 3, 4, 5 };
-            string[] strings = integers
-                .GroupBy(i => i)
-                .SelectMany(i => i)
-                .ToString();
-                //.ToArray();
+            #region zad3
+            int[] integers = new int[] { 1, 2, 3, 3, 3, 4, 4, 5 };
 
-            //zad4
+            string[] myStr = integers.GroupBy(x => x).Select(i => ("Broj " + i.Key + " ponavlja se " + i.Count() + " puta")).ToArray();
+
+            foreach (var item in myStr) Console.WriteLine(item);
+            #endregion
+
+            #region zad4
             Example1();
             Example2();
+            #endregion
 
-            //zad5
+            #region zad5
             //dummy list:
             University Zagreb = new University()
             {
@@ -60,11 +54,24 @@ namespace RAUPJC_DZ2
                                                        SelectMany(b => b.Students).Distinct().ToArray();                         //select distinct students
 
             //tests
-            //Console.WriteLine(allCroatianStudents.Count());
-            //Console.WriteLine(croatianStudentsOnMultipleUniversities.Count());
-            //Console.WriteLine("Students: {0}", studentsOnMaleOnlyUniversities.Count());
+            Console.WriteLine("allCroatianStudents.Count(): " + allCroatianStudents.Count());
+            Console.WriteLine("croatianStudentsOnMultipleUniversities.Count() :" + croatianStudentsOnMultipleUniversities.Count());
+            Console.WriteLine("studentsOnMaleOnlyUniversities.Count(): " + studentsOnMaleOnlyUniversities.Count());
+            #endregion
 
             Console.ReadLine();
+        }
+
+        /// <summary>
+        /// Outputs a list of todoitems to console
+        /// </summary>
+        /// <param name="list"></param>
+        public static void PrintTodoList(List<TodoItem> list)
+        {
+            foreach(TodoItem item in list)
+            {
+                Console.WriteLine(item.ToString());
+            }
         }
 
         static void Example1()
@@ -76,7 +83,7 @@ namespace RAUPJC_DZ2
             var ivan = new Student(" Ivan ", jmbag: "001234567");
             // false :(
             bool anyIvanExists = list.Any(s => s == ivan);
-            Console.WriteLine(anyIvanExists);
+            Console.WriteLine("Example1(): " + anyIvanExists);
         }
         static void Example2()
         {
@@ -87,12 +94,7 @@ namespace RAUPJC_DZ2
             };
             // 2 :(
             var distinctStudents = list.Distinct().Count();
-            Console.WriteLine(distinctStudents);
+            Console.WriteLine("Example2(): " + distinctStudents);
         }
-        private bool IsMaleOnlyUni(University uni)
-        {
-            return !uni.Students.Any(s => s.Gender == Gender.Female);
-        }
-
     }
 }
