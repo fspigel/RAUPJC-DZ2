@@ -19,20 +19,13 @@ namespace RAUPJC_DZ2
 
         static void Main(string[] args)
         {
-            //TodoRepository repo = new TodoRepository();
-            //repo.Add(new TodoItem("item1"));
-            //repo.Add(new TodoItem("item2"));
-            //TodoItem item3 = new TodoItem("item3");
-            //repo.Add(item3);
-            //repo.MarkAsCompleted(item3.Id);
-            //Console.WriteLine("GetAll:");
-            //PrintTodoList(repo.GetAll());
-            //Console.WriteLine("\nGetActive:");
-            //PrintTodoList(repo.GetActive());
-            //Console.WriteLine("\nGetCompleted:");
-            //PrintTodoList(repo.GetCompleted());
-
             //zad3
+            int[] integers = new[] { 1, 2, 2, 2, 3, 3, 4, 5 };
+            string[] strings = integers
+                .GroupBy(i => i)
+                .SelectMany(i => i)
+                .ToString();
+                //.ToArray();
 
             //zad4
             Example1();

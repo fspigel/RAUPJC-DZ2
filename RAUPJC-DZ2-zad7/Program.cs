@@ -38,7 +38,8 @@ namespace RAUPJC_DZ2_zad7
         private static Task<int> IKnowWhoKnowsThis(int n)
         {
             return FactorialDigitSum(n);
-        }
+        }
+
         private async static Task<int> FactorialDigitSum(int number)
         {
             Task<int> task = Task.Run(() => GetDigitSum(GetFactorial(number)));
