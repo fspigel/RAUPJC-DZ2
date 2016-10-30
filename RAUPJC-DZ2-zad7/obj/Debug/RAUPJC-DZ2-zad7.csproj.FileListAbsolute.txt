@@ -1,6 +1,0 @@
-C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2-zad7\bin\Debug\RAUPJC-DZ2-zad7.exe.config
-C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2-zad7\bin\Debug\RAUPJC-DZ2-zad7.exe
-C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2-zad7\bin\Debug\RAUPJC-DZ2-zad7.pdb
-C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2-zad7\obj\Debug\RAUPJC-DZ2-zad7.csprojResolveAssemblyReference.cache
-C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2-zad7\obj\Debug\RAUPJC-DZ2-zad7.exe
-C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\RAUPJC-DZ2-zad7\obj\Debug\RAUPJC-DZ2-zad7.pdb

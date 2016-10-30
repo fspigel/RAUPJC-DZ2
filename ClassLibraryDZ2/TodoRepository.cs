@@ -2,8 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ClassLibraryDZ2
 {
@@ -43,7 +41,6 @@ namespace ClassLibraryDZ2
             }
             TodoItem tempItem = Get(todoItem.Id);
             tempItem = todoItem;
-            //TODO: TEST THIS!! 
         }
 
         public bool MarkAsCompleted(Guid ID)

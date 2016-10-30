@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace RAUPJC_DZ2
+﻿namespace RAUPJC_DZ2
 {
     class University
     {

@@ -1,10 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ClassLibraryDZ2;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ClassLibraryDZ2.Tests
 {
@@ -36,6 +31,34 @@ namespace ClassLibraryDZ2.Tests
             var todoItem = new TodoItem(" Groceries ");
             repository.Add(todoItem);
             repository.Add(todoItem);
+        }
+        [TestMethod]
+        public void UpdateAddsNewItemAndUpdatesExisting()
+        {
+            ITodoRepository repository = new TodoRepository();
+            var todoItem = new TodoItem("Groceries");
+            repository.Update(todoItem);
+            Assert.IsTrue(repository.Get(todoItem.Id) != null);
+            todoItem.Text = "Not Groceries";
+            repository.Update(todoItem);
+            Assert.IsTrue(repository.Get(todoItem.Id).Text == todoItem.Text);
+        }
+        [TestMethod]
+        public void RemoveTest()
+        {
+            ITodoRepository repo = new TodoRepository();
+            var item = new TodoItem("Groceries");
+            repo.Add(item);
+            repo.Remove(item.Id);
+            Assert.IsTrue(repo.Get(item.Id) == null);
+        }
+        [TestMethod]
+        public void GetTest()
+        {
+            ITodoRepository repo = new TodoRepository();
+            var item = new TodoItem("Groceries");
+            repo.Add(item);
+            Assert.IsTrue(repo.Get(item.Id).Id == item.Id);
         }
     }
 }

@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 
 namespace RAUPJC_DZ2_zad7
@@ -65,7 +60,6 @@ namespace RAUPJC_DZ2_zad7
                 sum += number % 10;
                 number /= 10;
             }
-            Thread.Sleep(3000);
             return sum;
         }
     }

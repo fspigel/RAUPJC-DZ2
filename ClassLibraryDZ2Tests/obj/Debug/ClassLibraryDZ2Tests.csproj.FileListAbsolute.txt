@@ -1,0 +1,10 @@
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\ClassLibraryDZ2Tests\bin\Debug\ClassLibraryDZ2Tests.dll
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\ClassLibraryDZ2Tests\bin\Debug\ClassLibraryDZ2Tests.pdb
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\ClassLibraryDZ2Tests\bin\Debug\ClassLibraryDZ2.dll
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\ClassLibraryDZ2Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\ClassLibraryDZ2Tests\bin\Debug\dz1-zad3.exe
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\ClassLibraryDZ2Tests\bin\Debug\ClassLibraryDZ2.pdb
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\ClassLibraryDZ2Tests\bin\Debug\dz1-zad3.pdb
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\ClassLibraryDZ2Tests\obj\Debug\ClassLibraryDZ2Tests.csprojResolveAssemblyReference.cache
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\ClassLibraryDZ2Tests\obj\Debug\ClassLibraryDZ2Tests.dll
+C:\Users\fspig\Documents\Visual Studio 2015\Projects\RAUPJC-DZ2\ClassLibraryDZ2Tests\obj\Debug\ClassLibraryDZ2Tests.pdb
